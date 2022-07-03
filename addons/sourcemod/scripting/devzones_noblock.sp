@@ -8,7 +8,7 @@
 #define ZONE_PREFIX "noblock"
 //End
 
-bool noblock[MAXPLAYERS+1] = false;
+bool noblock[MAXPLAYERS+1] = { false, ... };
 
 public Plugin myinfo =
 {
